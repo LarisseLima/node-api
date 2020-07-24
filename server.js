@@ -14,5 +14,5 @@ requireDir("./src/models");
 
 
 // Rotas 
-app.use("/api", require("./src/routes"));
+app.use("/api", require("./src/models/routes"));
 app.listen(3001);
