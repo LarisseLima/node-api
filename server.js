@@ -1,9 +1,10 @@
+// Importar
 const express = require("express");
 const mongoose = require("mongoose");
 const requireDir = require("require-dir");
 
 // Iniciando o App
-const app = express();
+const app = express(); //Executar a função
 app.use(express.json());
 
 // Iniciando o DB
